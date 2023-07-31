@@ -1,0 +1,9 @@
+getgenv().Host = 'UserName' -- Case Sensitive
+getgenv().FPS = 10
+getgenv().Alts = {
+ Alt1 = 123456, -- Alts UserIDs here (UP TO 10, Just add more lines.)
+ Alt2 = 123456,
+}
+loadstring(game:HttpGet('https://raw.githubusercontent.com/W9K/roblox-scripts/main/DHC/AltControlV1', true))()
+
+--script is currently not being updated as of 7/30/23.
